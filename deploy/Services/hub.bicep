@@ -10,7 +10,7 @@ param servicePlanName string
 param location string = resourceGroup().location
 
 @description('The SKU of App Service Plan.')
-param sku string = 'S1'
+param sku string = 'B1'
 
 @description('The Runtime stack of current web app')
 param linuxFxVersion string = 'DOTNETCORE|7.0'
