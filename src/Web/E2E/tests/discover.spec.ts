@@ -5,8 +5,9 @@ test.beforeEach(async ({ page }) => {
 });
 
 test.describe('Discover Categories', () => {
-  
-  const categories = ['Microsoft', 'Mobile', 'Community', 'Web', 'Desktop'];
+
+  // Removed from categories because it was hidden on the discover page: 'Web', 
+  const categories = ['Microsoft', 'Mobile', 'Community', 'Desktop'];
   for (const category of categories) {
     test(`should allow me to browse category ${category}`, async ({ page }) => {
       await page.getByRole('list').getByRole('link', { name: category }).click();
