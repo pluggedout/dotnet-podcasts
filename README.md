@@ -28,6 +28,7 @@ You can browse a [live running version of the .NET Podcasts app](https://dotnetp
 ![Logo](./docs/images/net-podcasts.png)
 
 
+
 ## Application Architecture Diagram
 
 ![.NET Podcast Application Diagram](./docs/images/arch_diagram_podcast.png)
